@@ -7,6 +7,8 @@
 #define ROW 12
 #define COLUMN 10
 #define GRID ROW*COLUMN
+#define INPUT_MAX 60
+
 
 int main()
 {
@@ -14,6 +16,12 @@ int main()
 
 
 
+    char instruc[INPUT_MAX];
+    printf("Input the instruction: ");
+    fgets(instruc,INPUT_MAX,stdin);
+    puts(instruc);
+
+    /*
     const int x = 32;
 
     printf("constant x is: %d\n",x);
@@ -24,10 +32,10 @@ int main()
 
     int gird = GRID;
     printf("Grid is %d\tNumber of Ros%d\tNumber of columns%d\n",gird,ROW,COLUMN);
+   * /
 
 
 
-    /*
     char str[] = "Hello";
 
     if(strcmp(str,"Hello") == 0){
@@ -76,6 +84,7 @@ int main()
     printf("%d",k);
     char sdf[] = "Hellowe asdf";
     printf("Hello world!\n");
-    printf("Hello From cdsadfasdfads");*/
-    return 0;
+    printf("Hello From cdsadfasdfads");
+    */
+    return(0);
 }
