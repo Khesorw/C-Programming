@@ -8,6 +8,7 @@
 #define COLUMN 10
 #define GRID ROW*COLUMN
 #define INPUT_MAX 60
+#define FLOAT_SIZE 5
 
 
 int main()
@@ -16,10 +17,64 @@ int main()
 
 
 
+
+    /*
+    int grid[3][3];
+    int row,column;
+
+    for(row = 0; row < 3; row++)
+        for(column=0;column < 3; column++)
+        grid[row][column] = 0;
+
+    grid[2][2] = 1;
+
+
+    for(row = 0; row < 3; row++){
+        for(column = 0; column < 3; column++)
+        printf("%d",grid[row][column]);
+    printf("\n");
+}
+*/
+
+    /*
+    float numbers[FLOAT_SIZE];
+
+    for(int i =0 ;i < FLOAT_SIZE; i++){
+
+        puts("Enter the number: ");
+        scanf("%1f",&numbers[i]);
+        printf("%f\n",numbers[i]);
+
+    }
+
+    */
+
+
+
+
+
+
+
+
+   // char msg[] = {'H','e','l','l','o','\0'};
+   /*
+      char msg[] = "Hello";
+
+    for (int i=0;msg[i] != '\0'; i++){
+
+
+        putchar(msg[i]);
+
+    }
+    */
+
+    /*
     char instruc[INPUT_MAX];
     printf("Input the instruction: ");
     fgets(instruc,INPUT_MAX,stdin);
     puts(instruc);
+    */
+
 
     /*
     const int x = 32;
