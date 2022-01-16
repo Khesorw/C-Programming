@@ -2,15 +2,28 @@
 #include <stdlib.h>
 #include <string.h>
 
+#define VERSION 3
+#define AUTHOR "Hasib Yosufi"
+#define ROW 12
+#define COLUMN 10
+#define GRID ROW*COLUMN
 
 int main()
 {
 
 
+
+
     const int x = 32;
 
     printf("constant x is: %d\n",x);
-   // x=12;
+
+    char author[] = AUTHOR;
+
+    printf("Author is%s\n",author);
+
+    int gird = GRID;
+    printf("Grid is %d\tNumber of Ros%d\tNumber of columns%d\n",gird,ROW,COLUMN);
 
 
 
