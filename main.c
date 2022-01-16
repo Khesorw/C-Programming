@@ -7,13 +7,20 @@ int main()
 {
 
 
+    const int x = 32;
 
+    printf("constant x is: %d\n",x);
+   // x=12;
+
+
+
+    /*
     char str[] = "Hello";
 
-    if(strcmp(str,"Hello\n") == 0){
+    if(strcmp(str,"Hello") == 0){
 
 
-        printf("String are the same \":)\"");
+        printf("String are the same \n":)\"");
     }else {printf("String are not the same\n");
 
     }
@@ -21,7 +28,7 @@ int main()
     if(strstr(str,"Hell")){
         printf("containg string boggs");
     }
-
+    */
 
     /*
     char str1[100] = "Hello I am Hasib";
